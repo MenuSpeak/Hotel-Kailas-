@@ -1282,16 +1282,14 @@
         // Menu Data
         const data = [
 
-
-
 {"id": 1, "cat": "Roti", "name": "चपाती (Chapati)", "price": "Rs. 15", "desc": "Plain Wheat Chapati", "tags": ["Veg", "Roti"], "img": "img/Chapati.jpeg"},
 {"id": 2, "cat": "Roti", "name": "ज्वारी भाकरी (Jwar Bhakri)", "price": "Rs. 15", "desc": "Traditional Sorghum Flatbread", "tags": ["Veg", "Roti"], "img": "img/JwarBhakri.jpeg"},
 {"id": 3, "cat": "Roti", "name": "तंदुर रोटी (Tandur Roti)", "price": "Rs. 15", "desc": "Clay oven baked flatbread", "tags": ["Veg", "Roti"], "img": "img/TandurRoti.jpeg"},
 {"id": 4, "cat": "Roti", "name": "बटर रोटी (Butter Roti)", "price": "Rs. 30", "desc": "Tandoori Roti with Butter", "tags": ["Veg", "Roti"], "img": "img/ButterRoti.jpeg"},
 {"id": 5, "cat": "Roti", "name": "बटर नान (Butter Nan)", "price": "Rs. 40", "desc": "Soft leavened bread with butter", "tags": ["Veg", "Roti"], "img": "img/ButterNan.jpeg"},
 {"id": 6, "cat": "Roti", "name": "चपाती-२ भाजी वाटी (Chapati-2, Bhaji)", "price": "Rs. 50", "desc": "2 Chapati served with a bowl of vegetable curry", "tags": ["Veg", "Combo"], "img": "img/ChapatiBhaji.jpeg"},
-{"id": 7, "cat": "Rice (Half)", "name": "साधा राईस (Sada Rice - Half)", "price": "Rs. 40", "desc": "Steamed Plain Rice", "tags": ["Veg", "Rice"], "img": "img/SadaRice half.jpeg"},
-{"id": 8, "cat": "Rice (Half)", "name": "जीरा राईस (Jeera Rice - Half)", "price": "Rs. 50", "desc": "Cumin flavored Rice", "tags": ["Veg", "Rice"], "img": "img/JeeraRice half.jpeg"},
+{"id": 7, "cat": "Rice (Half)", "name": "साधा राईस (Sada Rice - Half)", "price": "Rs. 50", "desc": "Steamed Plain Rice", "tags": ["Veg", "Rice"], "img": "img/SadaRice half.jpeg"},
+{"id": 8, "cat": "Rice (Half)", "name": "जीरा राईस (Jeera Rice - Half)", "price": "Rs. 60", "desc": "Cumin flavored Rice", "tags": ["Veg", "Rice"], "img": "img/JeeraRice half.jpeg"},
 {"id": 9, "cat": "Rice (Half)", "name": "मसाला राईस (Masala Rice - Half)", "price": "Rs. 60", "desc": "Spiced flavorful Rice", "tags": ["Veg", "Rice"], "img": "img/MasalaRice half.jpeg"},
 {"id": 10, "cat": "Rice (Half)", "name": "दाळ राईस (Dal Rice - Half)", "price": "Rs. 60", "desc": "Rice served with Lentil curry", "tags": ["Veg", "Rice"], "img": "img/DalRice half.jpeg"},
 {"id": 11, "cat": "Rice (Half)", "name": "व्हेज पुलाव (Veg Pulav - Half)", "price": "Rs. 60", "desc": "Rice cooked with assorted vegetables", "tags": ["Veg", "Rice"], "img": "img/VegPulav half.jpeg"},
@@ -1300,7 +1298,7 @@
 {"id": 14, "cat": "Rice (Full)", "name": "मसाला राईस (Masala Rice - Full)", "price": "Rs. 90", "desc": "Spiced flavorful Rice", "tags": ["Veg", "Rice"], "img": "img/MasalaRicefull.jpeg"},
 {"id": 15, "cat": "Rice (Full)", "name": "दाळ राईस (Dal Rice - Full)", "price": "Rs. 90", "desc": "Rice served with Lentil curry", "tags": ["Veg", "Rice"], "img": "img/DalRicefull.jpeg"},
 {"id": 16, "cat": "Rice (Full)", "name": "व्हेज पुलाव (Veg Pulav - Full)", "price": "Rs. 100", "desc": "Rice cooked with assorted vegetables", "tags": ["Veg", "Rice"], "img": "img/VegPulavfull.jpeg"},
-{"id": 17, "cat": "Extra", "name": "एक्स्ट्रा पाव (Extra Pav)", "price": "Rs. 5", "desc": "Single piece of bread", "tags": ["Veg", "Extra"], "img": "img/ExtraPav.jpeg"},
+{"id": 17, "cat": "Extra", "name": "एक्स्ट्रा पाव (Extra Pav)", "price": "Rs. 10", "desc": "Single piece of bread", "tags": ["Veg", "Extra"], "img": "img/ExtraPav.jpeg"},
 {"id": 18, "cat": "Extra", "name": "एक्स्ट्रा दही (Extra Dahi)", "price": "Rs. 20", "desc": "Bowl of Curd", "tags": ["Veg", "Extra"], "img": "img/ExtraDahi.jpeg"},
 {"id": 19, "cat": "Extra", "name": "एक्स्ट्रा कोशिंबीर (Extra Koshimbir)", "price": "Rs. 20", "desc": "Side Salad/Koshimbir", "tags": ["Veg", "Extra"], "img": "img/ExtraKoshimbir.jpeg"},
 {"id": 20, "cat": "Extra", "name": "एक्स्ट्रा कडी वाटी (Extra Kadhi Vati)", "price": "Rs. 10", "desc": "Bowl of Kadhi", "tags": ["Veg", "Extra"], "img": "img/ExtraKadhi.jpeg"},
@@ -1308,30 +1306,37 @@
 {"id": 22, "cat": "Extra", "name": "एक्स्ट्रा शेंगा चटणी वाटी (Extra Shenga Chutney Vati)", "price": "Rs. 20", "desc": "Peanut Chutney bowl", "tags": ["Veg", "Extra"], "img": "img/ExtraShengaChutney.jpeg"},
 {"id": 23, "cat": "Extra", "name": "हिरवा मिरची ठेचा (Green Mirchi Thecha)", "price": "Rs. 30", "desc": "Spicy green chili paste", "tags": ["Veg", "Extra"], "img": "img/GreenMirchiThecha.jpeg"},
 
-{"id": 24, "cat": "Panjabi Dishes", "name": "शेव भाजी (Shev Bhaji)", "price": "Rs. 100", "desc": "Spicy curry topped with crunchy sev", "tags": ["Veg", "Panjabi"], "img": "img/ShevBhaji.jpeg"},
-{"id": 25, "cat": "Panjabi Dishes", "name": "शेंग भाजी (Shenga Bhaji)", "price": "Rs. 100", "desc": "Peanut based gravy dish", "tags": ["Veg", "Panjabi"], "img": "img/ShengaBhaji.jpeg"},
-{"id": 26, "cat": "Panjabi Dishes", "name": "दाळ फ्राय (Dal Fry)", "price": "Rs. 100", "desc": "Yellow lentils tempered with spices", "tags": ["Veg", "Dal"], "img": "img/DalFry.jpeg"},
-{"id": 27, "cat": "Panjabi Dishes", "name": "दाळ तडका (Dal Tadka)", "price": "Rs. 110", "desc": "Lentils with double tempering", "tags": ["Veg", "Dal"], "img": "img/DalTadka.jpeg"},
-{"id": 28, "cat": "Panjabi Dishes", "name": "पनीर मसाला (Paneer Masala)", "price": "Rs. 160", "desc": "Cottage cheese in spiced gravy", "tags": ["Veg", "Paneer"], "img": "img/PaneerMasala.jpeg"},
-{"id": 29, "cat": "Panjabi Dishes", "name": "काजू मसाला (Kaju Masala)", "price": "Rs. 160", "desc": "Roasted cashews in rich gravy", "tags": ["Veg", "Special"], "img": "img/KajuMasala.jpeg"},
-{"id": 30, "cat": "Panjabi Dishes", "name": "टोमॅटो चटणी (Tomato Chutney)", "price": "Rs. 100", "desc": "Tangy tomato based side dish", "tags": ["Veg", "Panjabi"], "img": "img/TomatoChutney.jpeg"},
-{"id": 31, "cat": "Panjabi Dishes", "name": "आलु मटर (Alu Mutter)", "price": "Rs. 120", "desc": "Potato and peas curry", "tags": ["Veg", "Panjabi"], "img": "img/AluMutter.jpeg"},
-{"id": 32, "cat": "Panjabi Dishes", "name": "बेसन (Besan)", "price": "Rs. 110", "desc": "Traditional gram flour preparation", "tags": ["Veg", "Panjabi"], "img": "img/Besan.jpeg"},
-{"id": 33, "cat": "Panjabi Dishes", "name": "मेथी मलाई (Methi Malai)", "price": "Rs. 160", "desc": "Fenugreek leaves in creamy gravy", "tags": ["Veg", "Panjabi"], "img": "img/MethiMalai.jpeg"},
-{"id": 34, "cat": "Panjabi Dishes", "name": "बैंगन मसाला (Baigan Masala)", "price": "Rs. 90", "desc": "Spiced eggplant curry", "tags": ["Veg", "Panjabi"], "img": "img/BaiganMasala.jpeg"},
-{"id": 35, "cat": "Panjabi Dishes", "name": "भरली वांगी (Bharli Wangi)", "price": "Rs. 100", "desc": "Stuffed eggplant in traditional masala", "tags": ["Veg", "Panjabi"], "img": "img/BharliWangi.jpeg"},
-{"id": 36, "cat": "Panjabi Dishes", "name": "बैंगन भर्ता (Baigan Bharta)", "price": "Rs. 100", "desc": "Smoky roasted mashed eggplant", "tags": ["Veg", "Panjabi"], "img": "img/BaiganBharta.jpeg"},
-{"id": 37, "cat": "Panjabi Dishes", "name": "तवा बेसन (Tava Besan)", "price": "Rs. 100", "desc": "Tawa cooked gram flour dish", "tags": ["Veg", "Panjabi"], "img": "img/TavaBesan.jpeg"},
-{"id": 38, "cat": "Panjabi Dishes", "name": "मेथी बेसन (Methi Besan)", "price": "Rs. 120", "desc": "Fenugreek and gram flour dry dish", "tags": ["Veg", "Panjabi"], "img": "img/MethiBesan.jpeg"},
-{"id": 39, "cat": "Panjabi Dishes", "name": "मटकी मसाला (Matki Masala)", "price": "Rs. 110", "desc": "Sprouted moth beans curry", "tags": ["Veg", "Panjabi"], "img": "img/MatkiMasala.jpeg"},
-{"id": 40, "cat": "Panjabi Dishes", "name": "मटकी फ्राय (Matki Fry)", "price": "Rs. 90", "desc": "Fried sprouted moth beans", "tags": ["Veg", "Panjabi"], "img": "img/MatkiFry.jpeg"},
-{"id": 41, "cat": "Panjabi Dishes", "name": "भेंडी मसाला (Bhendi Masala)", "price": "Rs. 100", "desc": "Spiced okra stir-fry", "tags": ["Veg", "Panjabi"], "img": "img/BhendiMasala.jpeg"},
-{"id": 42, "cat": "Panjabi Dishes", "name": "आलु मसाला (Alu Masala)", "price": "Rs. 90", "desc": "Spiced potato preparation", "tags": ["Veg", "Panjabi"], "img": "img/AluMasala.jpeg"},
-{"id": 43, "cat": "Panjabi Dishes", "name": "आखा मसूर (Akka Masur)", "price": "Rs. 150", "desc": "Whole brown lentils in rich gravy", "tags": ["Veg", "Panjabi"], "img": "img/AkkaMasur.jpeg"},
-{"id": 44, "cat": "Panjabi Dishes", "name": "चना मसाला (Chana Masala)", "price": "Rs. 150", "desc": "Spiced chickpea curry", "tags": ["Veg", "Panjabi"], "img": "img/ChanaMasala.jpeg"},
-{"id": 45, "cat": "Panjabi Dishes", "name": "मिक्स व्हेज (Mix Veg)", "price": "Rs. 140", "desc": "Assorted vegetables in spiced gravy", "tags": ["Veg", "Panjabi"], "img": "img/MixVeg.jpeg"},
-{"id": 46, "cat": "Panjabi Dishes", "name": "ग्रीन पिस मसाला (Green Peas Masala)", "price": "Rs. 120", "desc": "Fresh green peas in spiced gravy", "tags": ["Veg", "Panjabi"], "img": "img/GreenPeasMasala.jpeg"},
-{"id": 47, "cat": "Panjabi Dishes", "name": "व्हेज कोल्हापूरी (Veg Kolhapuri)", "price": "Rs. 150", "desc": "Spicy mixed veg Kolhapuri style", "tags": ["Veg", "Panjabi"], "img": "img/VegKolhapuri.jpeg"},
+{"id": 100, "cat": "Panjabi Dishes", "name": "टमाटर चटणी (Tomato Chatni)", "price": "Rs. 100", "desc": "Fresh tomato chatni", "tags": ["Veg", "Main Course"], "img": "img/TomatoChatni.jpeg"},
+{"id": 101, "cat": "Panjabi Dishes", "name": "तवा बेसन (Tava Besan)", "price": "Rs. 120", "desc": "Traditional tava besan", "tags": ["Veg", "Main Course"], "img": "img/TavaBesan.jpeg"},
+{"id": 102, "cat": "Panjabi Dishes", "name": "मेथी बेसन (Methi Besan)", "price": "Rs. 120", "desc": "Fresh fenugreek with gram flour", "tags": ["Veg", "Main Course"], "img": "img/MethiBesan.jpeg"},
+{"id": 103, "cat": "Panjabi Dishes", "name": "मेथी मसाला (Methi Masala)", "price": "Rs. 150", "desc": "Spicy methi masala dish", "tags": ["Veg", "Main Course"], "img": "img/MethiMasala.jpeg"},
+{"id": 104, "cat": "Panjabi Dishes", "name": "लसुन मेथी (Lasun Methi)", "price": "Rs. 130", "desc": "Garlic flavored methi", "tags": ["Veg", "Main Course"], "img": "img/LasunMethi.jpeg"},
+{"id": 105, "cat": "Panjabi Dishes", "name": "मलाई मेथी (Malai Methi)", "price": "Rs. 160", "desc": "Creamy methi dish", "tags": ["Veg", "Main Course"], "img": "img/MalaiMethi.jpeg"},
+{"id": 106, "cat": "Panjabi Dishes", "name": "चमन मेथी (Chaman Methi)", "price": "Rs. 220", "desc": "Special chaman methi", "tags": ["Veg", "Main Course"], "img": "img/ChamanMethi.jpeg"},
+{"id": 107, "cat": "Panjabi Dishes", "name": "आलु मटर (Aloo Matar)", "price": "Rs. 120", "desc": "Potato and peas curry", "tags": ["Veg", "Main Course"], "img": "img/AlooMatar.jpeg"},
+{"id": 108, "cat": "Panjabi Dishes", "name": "पालक पनीर (Palak Paneer)", "price": "Rs. 180", "desc": "Cottage cheese in spinach gravy", "tags": ["Veg", "Main Course"], "img": "img/PalakPaneer.jpeg"},
+{"id": 109, "cat": "Panjabi Dishes", "name": "चना मसाला (Chana Masala)", "price": "Rs. 150", "desc": "Spicy chickpea curry", "tags": ["Veg", "Main Course"], "img": "img/ChanaMasala.jpeg"},
+{"id": 110, "cat": "Panjabi Dishes", "name": "ग्रीन पी पिस मसाला (Green Peas Masala)", "price": "Rs. 120", "desc": "Green peas in spicy gravy", "tags": ["Veg", "Main Course"], "img": "img/GreenPeasMasala.jpeg"},
+{"id": 111, "cat": "Panjabi Dishes", "name": "बेसन (Besan)", "price": "Rs. 110", "desc": "Traditional besan dish", "tags": ["Veg", "Main Course"], "img": "img/Besan.jpeg"},
+{"id": 112, "cat": "Panjabi Dishes", "name": "भेंडी मसाला (Bhendi Masala)", "price": "Rs. 100", "desc": "Spiced ladyfinger dish", "tags": ["Veg", "Main Course"], "img": "img/BhendiMasala.jpeg"},
+{"id": 113, "cat": "Panjabi Dishes", "name": "भेंडी फ्राय (Bhendi Fry)", "price": "Rs. 120", "desc": "Crispy fried ladyfinger", "tags": ["Veg", "Main Course"], "img": "img/BhendiFry.jpeg"},
+{"id": 114, "cat": "Panjabi Dishes", "name": "दाल फ्राय (Dal Fry)", "price": "Rs. 100", "desc": "Yellow lentil tempering with spices", "tags": ["Veg", "Main Course"], "img": "img/DalFry.jpeg"},
+{"id": 115, "cat": "Panjabi Dishes", "name": "दाल तडका (Dal Tadka)", "price": "Rs. 110", "desc": "Lentils topped with aromatic tadka", "tags": ["Veg", "Main Course"], "img": "img/DalTadka.jpeg"},
+{"id": 116, "cat": "Panjabi Dishes", "name": "शेव भाजी (Shev Bhaji)", "price": "Rs. 100", "desc": "Spicy curry topped with crunchy shev", "tags": ["Veg", "Main Course"], "img": "img/ShevBhaji.jpeg"},
+{"id": 117, "cat": "Panjabi Dishes", "name": "बैंगन मसाला (Baigan Masala)", "price": "Rs. 100", "desc": "Eggplant cooked in spicy masala", "tags": ["Veg", "Main Course"], "img": "img/BaiganMasala.jpeg"},
+{"id": 118, "cat": "Panjabi Dishes", "name": "बैंगन भरता (Baigan Bharta)", "price": "Rs. 120", "desc": "Roasted mashed eggplant with spices", "tags": ["Veg", "Main Course"], "img": "img/BaiganBharta.jpeg"},
+{"id": 119, "cat": "Panjabi Dishes", "name": "भरली बैंगन (Bharli Baigan)", "price": "Rs. 110", "desc": "Stuffed eggplant curry", "tags": ["Veg", "Main Course"], "img": "img/BharliBaigan.jpeg"},
+{"id": 120, "cat": "Panjabi Dishes", "name": "काजु मसाला (Kaju Masala)", "price": "Rs. 160", "desc": "Roasted cashews in rich gravy", "tags": ["Veg", "Main Course"], "img": "img/KajuMasala.jpeg"},
+{"id": 121, "cat": "Panjabi Dishes", "name": "काजु करी (Kaju Curry)", "price": "Rs. 150", "desc": "Cashews in a mild creamy curry", "tags": ["Veg", "Main Course"], "img": "img/KajuCurry.jpeg"},
+{"id": 122, "cat": "Panjabi Dishes", "name": "काजु पनीर (Kaju Paneer)", "price": "Rs. 180", "desc": "Combination of cashews and cottage cheese", "tags": ["Veg", "Main Course"], "img": "img/KajuPaneer.jpeg"},
+{"id": 123, "cat": "Panjabi Dishes", "name": "पनीर मसाला (Paneer Masala)", "price": "Rs. 160", "desc": "Cottage cheese in spicy tomato-onion gravy", "tags": ["Veg", "Main Course"], "img": "img/PaneerMasala.jpeg"},
+{"id": 124, "cat": "Panjabi Dishes", "name": "पनीर टीका (Paneer Tikka)", "price": "Rs. 200", "desc": "Marinated and grilled paneer chunks", "tags": ["Veg", "Main Course"], "img": "img/PaneerTikka.jpeg"},
+{"id": 125, "cat": "Panjabi Dishes", "name": "मिक्स व्हेज (Mix Veg)", "price": "Rs. 140", "desc": "Assorted vegetables cooked together", "tags": ["Veg", "Main Course"], "img": "img/MixVeg.jpeg"},
+{"id": 126, "cat": "Panjabi Dishes", "name": "व्हेज कोल्हापुरी (Veg Kolhapuri)", "price": "Rs. 150", "desc": "Extra spicy mixed vegetable dish", "tags": ["Veg", "Main Course"], "img": "img/VegKolhapuri.jpeg"},
+{"id": 127, "cat": "Panjabi Dishes", "name": "मटकी मसाला (Matki Masala)", "price": "Rs. 110", "desc": "Sprouted moth beans in spicy gravy", "tags": ["Veg", "Main Course"], "img": "img/MatkiMasala.jpeg"},
+{"id": 128, "cat": "Panjabi Dishes", "name": "मटकी फ्राय (Matki Fry)", "price": "Rs. 90", "desc": "Dry fried sprouted moth beans", "tags": ["Veg", "Main Course"], "img": "img/MatkiFry.jpeg"},
+{"id": 129, "cat": "Panjabi Dishes", "name": "अक्का मसूर (Akka Masoor)", "price": "Rs. 150", "desc": "Whole black lentils curry", "tags": ["Veg", "Main Course"], "img": "img/AkkaMasoor.jpeg"},
+{"id": 130, "cat": "Panjabi Dishes", "name": "शेग भाजी (Sheg Bhaji)", "price": "Rs. 120", "desc": "Traditional vegetable preparation", "tags": ["Veg", "Main Course"], "img": "img/ShegBhaji.jpeg"},
 
 {"id": 48, "cat": "Breakfast", "name": "भजे (Bhaji)", "price": "Rs. 25", "desc": "Crispy vegetable fritters", "tags": ["Veg", "Breakfast"], "img": "img/Bhaji1.jpeg"},
 {"id": 49, "cat": "Breakfast", "name": "वडा पाव - डबल (Vada Pav - 2 Pcs)", "price": "Rs. 30", "desc": "Spiced potato patty in bread bun", "tags": ["Veg", "Breakfast"], "img": "img/VadaPav.jpeg"},
@@ -1347,13 +1352,13 @@
 {"id": 59, "cat": "Breakfast", "name": "ओनियन डोसा (Onion Dosa)", "price": "Rs. 70", "desc": "Rice crepe topped with onions", "tags": ["Veg", "Breakfast"], "img": "img/OnionDosa.jpeg"},
 {"id": 60, "cat": "Breakfast", "name": "ओनियन उत्तप्पा (Onion Uttappa)", "price": "Rs. 60", "desc": "Thick rice pancake with onions", "tags": ["Veg", "Breakfast"], "img": "img/OnionUttappa.jpeg"},
 {"id": 61, "cat": "Breakfast", "name": "टोमॅटो उत्तप्पा (Tomato Uttappa)", "price": "Rs. 60", "desc": "Thick rice pancake with tomatoes", "tags": ["Veg", "Breakfast"], "img": "img/TomatoUttappa.jpeg"},
-{"id": 62, "cat": "Breakfast", "name": "इडली सांबर - दोन नग (Idli Sambar - 2 Pcs)", "price": "Rs. 30", "desc": "Steamed rice cakes with lentil soup", "tags": ["Veg", "Breakfast"], "img": "img/IdliSambar.jpeg"},
+{"id": 62, "cat": "Breakfast", "name": "इडली सांबर - तीन नग (Idli Sambar - 3 Pcs)", "price": "Rs. 50", "desc": "Steamed rice cakes with lentil soup", "tags": ["Veg", "Breakfast"], "img": "img/IdliSambar.jpeg"},
 {"id": 63, "cat": "Breakfast", "name": "पकाडा भजे (Pakoda Bhaji)", "price": "Rs. 30", "desc": "Deep fried vegetable pakodas", "tags": ["Veg", "Breakfast"], "img": "img/PakodaBhaji.jpeg"},
 {"id": 64, "cat": "Breakfast", "name": "शाबु खिचडी दही (Shabu Khichadi Dahi)", "price": "Rs. 50", "desc": "Sago khichadi served with curd", "tags": ["Veg", "Breakfast", "Upvas"], "img": "img/ShabuKhichadi.jpeg"},
 {"id": 65, "cat": "Breakfast", "name": "शाबु वडा दही - दोन नग (Shabu Vada Dahi - 2 Pcs)", "price": "Rs. 50", "desc": "Sago fritters served with curd", "tags": ["Veg", "Breakfast", "Upvas"], "img": "img/ShabuVada.jpeg"},
 {"id": 66, "cat": "Breakfast", "name": "गुलाब जामून - २ नग (Gulab Jamun - 2 Pcs)", "price": "Rs. 20", "desc": "Sweet milk-solid balls in syrup", "tags": ["Veg", "Sweet"], "img": "img/GulabJamun.jpeg"},
-{"id": 67, "cat": "Breakfast", "name": "कैलास स्पेशल पुरी भाजी (Kailas Sp. Puri Bhaji)", "price": "Rs. 70", "desc": "Puri-4, Bhaji, Matki, Koshimbir, Papad, Loncha", "tags": ["Veg", "Breakfast", "Special"], "img": "img/KailasSpecialPuriBhaji.jpeg"},
-
+{"id": 67, "cat": "Breakfast", "name": "कैलास स्पेशल पुरी भाजी (Kailas Sp. Puri Bhaji)", "price": "Rs. 70", "desc": "Puri-4, Bhaji, Matki, Koshimbir, Papad, Loncha", "tags": ["Veg", "Breakfast", "Special"], "img": "img/KailasSpecialPuriBhaji.jpeg
+    
 {"id": 68, "cat": "Thali", "name": "पंजाबी थाळी (Panjabi Thali)", "price": "Rs. 150", "desc": "चपाती-२, शेव भाजी, पनीर मसाला, जीरा राईस, दाळ फ्राय, दही, कोशिंबीर, पापड, लोणचं, शेंगा चटणी", "tags": ["Veg", "Thali"], "img": "img/PanjabiThali.jpeg"},
 {"id": 69, "cat": "Thali", "name": "स्पेशल कैलास थाळी (Special Kailas Thali)", "price": "Rs. 250", "desc": "चपाती/भाकरी, काजू पनीर, दाळ तडका, मसाला राईस, गुलाब जामून, ताक, पापड, लोणचं, लहान पाणी बॉटल", "tags": ["Veg", "Special", "Thali"], "img": "img/SpecialKailasThali.jpeg"},
 {"id": 70, "cat": "Thali", "name": "अनलिमिटेड थाळी (Unlimited Thali)", "price": "Rs. 150", "desc": "चपाती, भाजी-२, साधा राईस, दाळ फ्राय, कोशिंबीर, दही, शिरा, पापड-१, लोणचं", "tags": ["Veg", "Thali", "Unlimited"], "img": "img/UnlimitedThali.jpeg"},
@@ -1369,6 +1374,8 @@
 {"id": 80, "cat": "Hot Drinks", "name": "बूस्ट (Boost)", "price": "Rs. 15", "desc": "Hot malted milk drink", "tags": ["Veg", "Beverage", "Hot"], "img": "img/Boost.jpeg"},
 {"id": 81, "cat": "Hot Drinks", "name": "डिकाॅसन (Decoction)", "price": "Rs. 10", "desc": "Strong black tea/coffee base", "tags": ["Veg", "Beverage", "Hot"], "img": "img/Decoction.jpeg"},
 {"id": 82, "cat": "Hot Drinks", "name": "दूध (Milk)", "price": "Rs. 15", "desc": "Hot plain milk", "tags": ["Veg", "Beverage", "Hot"], "img": "img/HotMilk.jpeg"},
+
+ 
 ];
         // Cart functionality
         let cart = [];
@@ -1737,6 +1744,7 @@
 </body>
 
 </html>
+
 
 
 
